@@ -11,5 +11,11 @@ namespace Software2KnowledgeCheck1
         public string Street { get; set; }
 
         public int StreetNumber { get; set; }
+
+        public static void Add(Building building)
+        {
+            List<Building> buildings = new();
+            buildings.Add(building);
+        }
     }
 }
